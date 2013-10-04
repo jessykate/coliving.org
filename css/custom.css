@@ -92,16 +92,60 @@ li {
 }
 
 .jumbotron {
-padding: 10px 80px 80px 80px;
-text-align: center;
-background-color: rgb(95, 122, 212);
-color: #333;
+	padding: 10px 80px 80px 80px;
+	background-color: rgb(95, 122, 212);
+	color: #EEE;
+	text-align: center;
+}
+
+.jumbotron li {
+	font-size: 1.05em;
 }
 
 .jumbotron h1 {
-font-size: 100px;
-line-height: 1;
+	font-size: 3em;
+	line-height: 1;
+	font-weight: normal;
+	color: white;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
+
+.jumbotron h2 {
+	text-align: left;
+}
+
+#header-logo {
+	height: 230px;
+}
+
+.sub-text {
+	font-size: 0.7em;
+	text-align: left;
+	margin-left: 125px;
+}
+
+#jumbo-body {
+	position: relative;
+	top: -20px;
+}
+
+.indent {
+	margin-left: 30px;
+}
+
+.jumbotron ol {
+	padding-left: 70px;
+}
+
+.num {
+	padding-right: 40px;
+}
+
+.jumbotron p {
+	text-align: left;
+}
+
 
 .jumbotron .lead {
 font-size: 1.5em;
