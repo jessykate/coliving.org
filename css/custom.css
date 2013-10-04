@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'Raleway Light'; src: url(../fonts/Raleway-Light.otf);
+}
+
+@font-face {
+	font-family: 'Raleway Medium'; src: url(../fonts/Raleway-Medium.otf);
+}
+
+body {
+	font-family: 'Raleway Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.8em;
+	line-height: 1.35em;
+	position: relative;
+}
+
+h1 {
+	font-size: 2.5em;
+	line-height: 1em;
+	color: #A67C1F;
+	padding: 0.65em 0 0.65em 0;
+}
+
+#h1-top {
+	padding-top: 0em;
+}
+
+.nav-list > .active > a {
+	background-color: #A67C1F;
+}
+
+#sidenav.affix {
+    position: fixed;
+    top: 15px;
+	width: 240px;
+}
+
+#fb-logo {
+	width: 240px;
+}
+
+.list-signup-submit, .list-signup-input {
+	width: 100% !important;
+}
+
+.list-signup-input {
+	font-size: 1.5em;
+	line-height: normal;
+	margin: 20px 0 10px 0;
+}
+
+#coliving-discuss-response-success, #coliving-announce-response-success {
+	text-align: center;
+	color: #51a351;
+}
+
+#coliving-discuss-response-fail, #coliving-announce-response-fail {
+	text-align: center;
+	color: #bd362f;
+}
+
+
+.footer {
+	height: 200px;
+}
+
+#nav {
+    position: relative;
+}
+
+li {
+	line-height: 1em;
+	font-size: 0.8em;
+}
+
+#manifesto li, #connect li {
+	padding: 0.25em 0 0.25em 0;
+}
+
+.emph-blue {
+	color: #5F7AD4;
+}
+
+.emph-grey {
+	color: #BFA366;
+}
+
+.nav-header {
+	font-size: 1.3em;
+	line-height: 1em;
+	margin-bottom: 0.4em;
+	margin-top: 0.4em !important;
+}
+
+.jumbotron {
+padding: 10px 80px 80px 80px;
+text-align: center;
+background-color: rgb(95, 122, 212);
+color: #333;
+}
+
+.jumbotron h1 {
+font-size: 100px;
+line-height: 1;
+}
+
+.jumbotron .lead {
+font-size: 1.5em;
+line-height: 1.1em;
+padding: 20px 0 0 20px;
+}
+
+
+.jumbotron .btn {
+font-size: 1em;
+padding: 14px 24px;
+}
+
+#sidenav {
+	min-height: 1px;
+}
+
+.btn-flat-lightblue {
+  background-color: #A3B3EA !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0095c6", endColorstr="#0095c6");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#A3B3EA), to(#A3B3EA));
+  background-image: -moz-linear-gradient(top, #A3B3EA, #A3B3EA);
+  background-image: -ms-linear-gradient(top, #A3B3EA, #A3B3EA);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #A3B3EA), color-stop(100%, #A3B3EA));
+  background-image: -webkit-linear-gradient(top, #A3B3EA, #A3B3EA);
+  background-image: -o-linear-gradient(top, #A3B3EA, #A3B3EA);
+  background-image: linear-gradient(#A3B3EA, #A3B3EA);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  margin: 0 10px;
+}
+
+#addhouse-btn {
+	margin-left: 0px;
+}
