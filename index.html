@@ -27,30 +27,32 @@
 			<img id="header-logo" src="img/coliving_logo_no_text.png">
 			<h1>Co·liv·ing</h1>
 			<div class="row-fluid">
-				<div class="span10 offset1" id="jumbo-body">
+				<div class="span1 hidden-phone hidden-tablet"></div>
+				<div class="span10" id="jumbo-body">
 					<h2><em>noun</em> </h2>
 					<ol>
 						<li><p class="indent">Shared housing designed to support a purpose-driven life.</p>
-						<li><p class="indent">A modern, urban lifestyle that values openness, sharing, and collaboration.<p>
+						<li><p class="indent">A modern, urban lifestyle that values openness, sharing, and collaboration.</p>
 					</ol>
 						<div class="sub-text"><em>Synonyms</em>: intentional living, intentional community, cohousing, modern nomad.</div>
 				</div>
+				<div class="span1 hidden-phone hidden-tablet"></div>
 			</div>
-			<a class="btn btn-large btn-flat-lightblue" href="#motivation">Learn More</a>
+			<a class="btn btn-large btn-flat-lightblue" href="#why">Learn More</a>
 			<a class="btn btn-large btn-flat-lightblue" href="#addhouse">Add your House</a>
 			<a class="btn btn-large btn-flat-lightblue" href="#connect">Get Connected</a>
 		</div>
-		<iframe width='100%' height='500' frameborder='0' src='http://jessykate.cartodb.com/viz/ade30460-2c99-11e3-91af-593c3ff1f9e4/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=false&scrollwheel=false&sublayer_options=1&sql=&zoom=2&center_lat=15.199386048560134&center_lon=0'></iframe>
+		<iframe width='100%' height='400' frameborder='0' src='http://jessykate.cartodb.com/viz/ade30460-2c99-11e3-91af-593c3ff1f9e4/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=true&layer_selector=false&legends=false&scrollwheel=false&sublayer_options=1&sql=&zoom=2&center_lat=15.199386048560134&center_lon=0'></iframe>
+	</div>
 
 		<div class="container">
 		<div class="row-fluid">
 
 		<div class="span3 hidden-phone hidden-tablet"> 
-			<div id="sidenav" class="nav" data-spy="affix" data-offset-top="1151">
+			<div id="sidenav" class="nav" data-spy="affix" data-offset-top="1078">
 			<ul class="nav nav-list" >
 				<li class="nav-header">About Coliving</li>
-				<li class="active"><a href="#motivation">Motivation</a></li>
-				<li><a href="#why">Why</a></li>
+				<li class="active"><a href="#why">Why</a></li>
 				<li><a href="#who">Who</a></li>
 				<li><a href="#how">How</a></li>
 				<li class="divider"></li>
@@ -65,16 +67,6 @@
 			<div class="clear"></div>
 		</div>
 		<div class="span8">
-			<div id="motivation">
-				<h1 id="h1-top">Motivation</h1>
-				<p> What if home was both a comfortable <em>and</em> empowering
-				place to be?  What would be possible if our homes supported us
-				in our deepest desires and aspirations? What if our
-				housemates were interesting and inspiring people?</p>
-				
-				<p>Let’s start thinking differently about home.</p>
-				</p>
-			</div>
 			<div id="why">
 				<h1>Why</h1>
 				<p>
@@ -122,7 +114,7 @@
 						<h3 id="myModalLabel">Add your house to the Coliving Map</h3>
 					</div>
 					<div class="modal-body">
-						<iframe src="https://docs.google.com/forms/d/10PUXedgKRveiokj9c41aEEgLcpvrv5IytvsEVpN_e9I/viewform?embedded=true#start=embed" width="530" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+						<iframe src="https://docs.google.com/forms/d/10PUXedgKRveiokj9c41aEEgLcpvrv5IytvsEVpN_e9I/viewform?embedded=true#start=embed" width="530" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 					</div>
 					<div class="modal-footer">
@@ -133,30 +125,30 @@
 			</div>
 			<div id="connect">
 				<h1>Get Connected</h1>
-				<div class="row-fluid">
-					<div class="span4">
-						Sign up to the community discussion list and introduce yourself. 
-						<div id="coliving-discuss-signup-wrapper">
-                        <form id="coliving-discuss-signup" action="http://lists.coliving.org/subscribe/community" method="POST">
-                            <input name="email" class="list-signup-input" placeholder=" Email...">
-                            <input type="submit" class="btn-large-text btn btn-large list-signup-submit" value="Sign Me Up!" />
-                        </form>	
-                        </div>
-					</div>
-					<div class="span4">
-						Join the Coliving facebook group.
-						<a href="https://www.facebook.com/groups/coliving/"><img id="fb-logo" target="Coliving facebook group" src="/img/facebook_logo.png"></a>
-					</div>
-					<div class="span4">
-						Receive periodic emails about new coliving houses (less than once a month). 
-						<div id="coliving-announce-signup-wrapper">
-                        <form id="coliving-announce-signup" action="http://lists.coliving.org/subscribe/announce" method="POST">
-                            <input name="email" class="list-signup-input" placeholder=" Email...">
-                            <input type="submit" class="btn-large-text btn btn-large list-signup-submit" value="Add to Announce List" />
-                        </form>	
-                        </div>
-					</div>
+				<p>
+				Sign up to the community discussion list to share info or ask
+				questions about coliving spaces. Say Hi and introduce yourself. 
+				<div id="coliving-discuss-signup-wrapper">
+					<form id="coliving-discuss-signup" action="http://lists.coliving.org/subscribe/community" method="POST">
+						<input name="email" class="list-signup-input" placeholder=" Email...">
+						<input type="submit" class="btn-large-text btn btn-large list-signup-submit" value="Sign Me Up!" />
+					</form>	
 				</div>
+				<hr>
+				Want to hear about new coliving houses? Sign up to the announce
+				list to receive low-volume periodic emails about new houses
+				that are added to the map (less than once a month). 
+				<div id="coliving-announce-signup-wrapper">
+					<form id="coliving-announce-signup" action="http://lists.coliving.org/subscribe/announce" method="POST">
+						<input name="email" class="list-signup-input" placeholder=" Email...">
+						<input type="submit" class="btn-large-text btn btn-large list-signup-submit" value="Add to Announce List" />
+					</form>	
+				</div>
+				<hr>
+				Join the Coliving facebook group.
+				<a href="https://www.facebook.com/groups/coliving/"><img id="fb-logo" target="Coliving facebook group" src="/img/facebook_logo.png"></a>
+				</p>
+			</div>
 		</div> <!-- end span8 -->
 	</div>
 	</div><!-- end row-fluid -->
@@ -170,6 +162,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/flowType.js"></script>
 	<script language="JavaScript">
     $(document).ready(function() {
 
@@ -222,6 +215,15 @@
         });
 
     });
+
+	$('body').flowtype({
+		minimum   : 500,
+		maximum   : 1200,
+		minFont   : 23,
+		maxFont   : 29,
+		fontRatio : 30,
+		lineRatio : 1.45
+	});
     </script>
 
   </body>

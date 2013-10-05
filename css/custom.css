@@ -13,10 +13,16 @@ body {
 	position: relative;
 }
 
+@media (max-width: 767px) {
+	body {
+		padding: 0px;
+	}
+}
+
 h1 {
 	font-size: 2.5em;
 	line-height: 1em;
-	color: #A67C1F;
+	color: rgb(95, 122, 212);
 	padding: 0.65em 0 0.65em 0;
 }
 
@@ -25,17 +31,17 @@ h1 {
 }
 
 .nav-list > .active > a {
-	background-color: #A67C1F;
+	background-color: rgb(95, 122, 212);
 }
 
 #sidenav.affix {
     position: fixed;
     top: 15px;
-	width: 240px;
+	width: 270px;
 }
 
 #fb-logo {
-	width: 240px;
+	width: 50px;
 }
 
 .list-signup-submit, .list-signup-input {
@@ -92,10 +98,18 @@ li {
 }
 
 .jumbotron {
-	padding: 10px 80px 80px 80px;
+	padding: 1em 0.4em 1em 0.4em;
 	background-color: rgb(95, 122, 212);
 	color: #EEE;
 	text-align: center;
+}
+
+.nav a {
+	color: rgb(95, 122, 212);
+}
+
+.nav-list > .active > a:hover {
+	background-color: rgb(95, 122, 212) !important;
 }
 
 .jumbotron li {
@@ -115,14 +129,10 @@ li {
 	text-align: left;
 }
 
-#header-logo {
-	height: 230px;
-}
-
 .sub-text {
 	font-size: 0.7em;
 	text-align: left;
-	margin-left: 125px;
+	margin-left: 6.3em;
 }
 
 #jumbo-body {
@@ -131,11 +141,16 @@ li {
 }
 
 .indent {
-	margin-left: 30px;
+	margin-left: 0.8em;
+}
+
+
+@media (max-width: 767px) { 
+	iframe { height: 300px; } 
 }
 
 .jumbotron ol {
-	padding-left: 70px;
+	padding-left: 2.5em;
 }
 
 .num {
@@ -157,6 +172,7 @@ padding: 20px 0 0 20px;
 .jumbotron .btn {
 font-size: 1em;
 padding: 14px 24px;
+margin-bottom: 0.7em;
 }
 
 #sidenav {
